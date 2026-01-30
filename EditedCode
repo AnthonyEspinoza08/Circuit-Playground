@@ -1,0 +1,13 @@
+def main():
+  print("Starting The Code Challenge")
+  
+
+  print("Starting <First Part> Of Code Challenge")
+  
+  print('Enter Best Code Here:')
+  x = 42
+  print(x)
+  print("Ending <First Part> Of Code Challenge")
+  print("Ending The Code Challenge")
+
+main()
