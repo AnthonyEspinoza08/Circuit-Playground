@@ -1,0 +1,13 @@
+i = 1
+while i < 6:
+    print(i)
+    i+=1
+    print("Starting The Code Challenge Soon...")
+  
+if i == 6:
+    print ("Number greater than 6!")
+    print("Starting Picture Function Of Code Challenge")
+    
+if i > 6:
+    print("Ending Picture Function Of Code Challenge")
+    print("Ending The Code Challenge")
