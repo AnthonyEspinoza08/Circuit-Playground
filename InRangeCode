@@ -1,0 +1,11 @@
+for my_variable in range(0, 120, 10):
+    print("Starting The Code Challenge")
+    print(my_variable)
+
+    if my_variable > 60:
+        print("Ending <Specific Part> Of Code Challenge")
+        print("Ending The Code Challenge")
+
+    elif my_variable > 40:
+        print("Starting <Specific Part> Of Code Challenge")
+
