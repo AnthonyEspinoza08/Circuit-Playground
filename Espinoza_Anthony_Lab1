@@ -1,0 +1,22 @@
+#Python Lists - Introduction 
+#Lists are comma delimited groups of variables
+
+#Challenge #1
+#Run the code, make sure you understand how the list is constructed
+      
+#- Can you explain the difference between a single object 
+ # variable and a list?
+#- Can you explain how lists are comma delimited sets of objects?
+      
+x = 9
+#x is a single variable object
+#9
+#<class 'int'>
+
+x =  [1, 2, 5, 66, 42, 19] #x is now a list of objects
+#[1, 2, 5, 66, 42, 19]
+#<class 'list'>
+
+x =  ['fName', 'lName', 25, True, 4.2] #x is now a list of mixed objects
+#['fName', 'lName', 25, True, 4.2]
+#<class 'list'>
