@@ -1,0 +1,20 @@
+x = 9
+int_list = [3, 7, 12, 45, 88]
+#x is a single variable object
+#9
+#<class 'int'>
+
+x =  [1, 2, 5, 66, 42, 19] #x is now a list of objects
+string_list = ["Purdy", "McCaffrey", "Kittle", "Williams"]
+#[1, 2, 5, 66, 42, 19]
+#<class 'list'>
+
+x =  ['Anthony', '49ers', 25, True, 4.2]
+mixed_list = [10, 3.14, "49ers", 42, 2.5, "Panthers"]
+print(x[1])
+print(int_list)
+print(string_list)
+print(mixed_list)
+print(int_list[3])
+print(string_list[1])
+print(mixed_list[5])
