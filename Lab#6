@@ -1,0 +1,40 @@
+Adding 
+def my_math(x,y) :
+  z=x+y
+  return z
+
+def main():
+  my_num_1 = 5
+  my_num_2 = 2
+  sum = my_math(my_num_1, my_num_2)
+  print("The sum of", my_num_1, "+", my_num_2, "=",sum)
+
+Multiplying 
+def my_math(x,y) :
+  z=x*y
+  return z
+
+def main():
+  my_num_1 = 5
+  my_num_2 = 2
+  sum = my_math(my_num_1, my_num_2)
+  print("The sum of", my_num_1, "x", my_num_2, "=",sum)
+
+Challenge #3
+
+def my_math(x, y):
+    z = x + y
+    
+    
+    if z % 2 != 0:
+        z += 1
+        
+    return z
+
+def main():
+    my_num_1 = 5
+    my_num_2 = 2
+    sum = my_math(my_num_1, my_num_2)
+    print("The sum of", my_num_1, "+", my_num_2, "=", sum)
+
+main()
