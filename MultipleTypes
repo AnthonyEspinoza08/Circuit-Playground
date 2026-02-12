@@ -1,0 +1,11 @@
+print("49ers to the bowl!!")
+SuperBowl = input("Whos going to the Super Bowl?")
+print(SuperBowl + "GOING TO THE BOWL!")
+number = "67"
+integer = int(number)
+print(integer)
+x = abs(-67.67)
+x = hex(67)
+x = round(49.4578, 2)
+print(x)
+x = str(3.5)
