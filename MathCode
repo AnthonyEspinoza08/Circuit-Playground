@@ -1,0 +1,78 @@
+def my_math(x, y, operation="add"):
+    if operation == "add":
+        result = x + y
+        symbol = "+"
+    elif operation == "subtract":
+        result = x - y
+        symbol = "-"
+    elif operation == "multiply":
+        result = x * y
+        symbol = "*"
+    elif operation == "divide":
+        if y == 0:
+            print("Error: Division by zero is wrong.")
+            return None
+        result = x / y
+        symbol = "/"
+    else:
+        print("Going to addition.")
+        result = x + y
+        symbol = "+"
+
+    print(f"{x} {symbol} {y} = {result}")
+    return result
+
+
+Challenge #5
+
+def main():
+    my_num_1 = 5
+    my_num_2 = 2
+
+    my_math(my_num_1, my_num_2)               
+    my_math(my_num_1, my_num_2, "subtract")    
+    my_math(my_num_1, my_num_2, "multiply")    
+    my_math(my_num_1, my_num_2, "divide")  
+
+
+def my_math(x, y, operation="add"):
+    if operation == "add":
+        result = x + y
+        symbol = "+"
+    elif operation == "subtract":
+        result = x - y
+        symbol = "-"
+    elif operation == "multiply":
+        result = x * y
+        symbol = "*"
+    elif operation == "divide":
+        try:
+            result = x / y
+            symbol = "/"
+        except ZeroDivisionError:
+            print("Error: Division by zero is wrong.")
+            return None
+    else:
+        print("Going to addition.")
+        result = x + y
+        symbol = "+"
+
+    print(f"{x} {symbol} {y} = {result}")
+    return result
+
+
+def main():
+    while True:
+        try:
+            my_num_1 = float(input("First Number: "))
+            my_num_2 = float(input("Second number: "))
+            break  
+        except ValueError:
+            print("Only numbers pleaseee\n")
+
+    
+    my_math(my_num_1, my_num_2)
+
+
+main()
+
