@@ -1,0 +1,48 @@
+Challenge #2
+def greet(lang):
+  if lang == 'es':
+    return'Hola'
+  elif lang == 'fr':
+    return'Bonjour'
+  elif lang == 'en':
+      return'Hello'
+  else:
+        return'konichiwa'
+    
+    
+
+
+def main():
+    print(greet('en'),'Adrian')
+    print(greet('fr'),'Luis')
+    print(greet('es'),'Eric')
+    print(greet('ja'),'naruto')
+    
+main()
+
+Challenge #3
+def greet(lang):
+  if lang == 'es':
+    return'Hola'
+  elif lang == 'fr':
+    return'Bonjour'
+  elif lang == 'en':
+      return'Hello'
+  else:
+        return'konichiwa'
+    
+    
+
+
+def main():
+    print(greet('en'),'Adrian')
+    print(greet('fr'),'Luis')
+    print(greet('es'),'Eric')
+    print(greet('ja'),'naruto')
+    name = input("Put your name: ")
+    language = input("Put your language (en, es, fr, ja): ")
+
+    print(greet(language), name)
+
+    
+main()
